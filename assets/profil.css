@@ -1,0 +1,128 @@
+ *, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+  }
+  
+  /* HEADER */
+  header {
+    background-color: transparent;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-image: url(foto2.jpg);
+  }
+  nav {
+    float: right;
+    margin: auto;
+    margin-right: 43px;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    margin: 14px;
+    display: inline-block;
+  }
+  li {
+    width: 100px;
+    text-align: center;
+    padding: 30px 0;
+    display: inline-block;
+  }
+  ul, li, a {
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-family: Simplicity;
+    font-size: 30px;
+  }
+  ul li a:hover {
+    background-color: blanchedalmond;
+    color: #784763;
+    border-radius: 40px;
+    transition-duration: 0.5s;
+  }
+  
+  /* LOGO */
+  .logo {
+    width: 200x;
+    float: left;
+    height: auto;
+    margin-left: 40px;
+   }
+  .logo img {
+    width: 210px;
+    height: auto;
+  }
+
+  .isi {
+      border: 1px solid #D0D0D0;
+      box-shadow: 0 0 8px #D0D0D0;
+      background-color: white;
+      margin: auto;
+      width: 50%;
+      margin-top: 20px;
+      margin-bottom: 30px;
+  }
+  .content {
+    margin: 10px;
+    display : grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 35px 35px 35px 35px 35px 35px 35px 35px 10px;
+  }
+  .foto {
+      margin-left: 78%;
+  }
+  .left-1, .right-1 {
+      grid-row: 2;
+  }
+  .left-2, .right-2 {
+      grid-row: 3;
+  }
+  .left-3, .right-3 {
+      grid-row: 4;
+  }
+  .left-4, .right-4 {
+      grid-row: 5;
+  }
+  .left-5, .right-5 {
+      grid-row: 6;
+  }
+  .left-6, .right-6 {
+      grid-row: 7;
+  }
+  .left-7, .right-7 {
+      grid-row: 8;
+  }
+  .left-8, .right-8 {
+      grid-row: 9;
+  }
+  p {
+      color: ;
+      margin-left: 5px;
+      font-family: Simplicity;
+      font-size: 25px;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 700px){
+    p{
+      text-align: left;
+      font-size:10px;
+      color:#e7530f;
+    }
+  }
+  @media (max-width: 1000px){
+     p{
+      text-align: justify;
+      font-size:10px;
+      color:darkred;
+     }
+   }
+  

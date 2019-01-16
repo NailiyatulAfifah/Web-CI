@@ -1,0 +1,93 @@
+box{
+    width: 450px;
+    height: 601px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    }
+    *, *::before, *::after {
+       -webkit-box-sizing: border-box;
+       box-sizing: border-box;
+       padding: 0;
+       margin: 0; 
+     }
+     
+     /* HEADER */
+     header {
+       background-color: transparent;
+       overflow: hidden;
+       width: 100%;
+       margin: auto;
+       height: 400px;
+       background-size: cover;
+       background-repeat: no-repeat; 
+       background-image: url(foto2.jpg);
+     }
+     nav {
+       float: right;
+       margin: auto;
+       margin-right: 43px;
+     }
+     ul {
+       float: right;
+       list-style: none;
+       margin: 14px;
+       display: inline-block;
+     }
+     li {
+       width: 100px;
+       text-align: center;
+       padding: 30px 0;
+       display: inline-block;
+     }
+     ul, li, a {
+       text-decoration: none;
+       color: blanchedalmond;
+       padding: 5px 20px;
+       border: 1px solid transparent;
+       transition: 0.6s ease;
+       font-family: Simplicity;
+       font-size: 30px;
+     }
+     ul li a:hover {
+       background-color: blanchedalmond;
+       color: #784763;
+       border-radius: 40px;
+       transition-duration: 0.5s;
+     }
+     
+     /* LOGO */
+     .logo {
+       width: 200x;
+       float: left;
+       height: auto;
+       margin-left: 40px;
+      }
+     .logo img {
+       width: 210px;
+       height: auto;
+     }
+     
+     
+     /* CONTENT */
+   
+     
+     /* RESPONSIVE */
+     @media (max-width: 700px){
+       p{
+         text-align: left;
+         font-size:10px;
+         color:#e7530f;
+       }
+     }
+     @media (max-width: 1000px){
+        p{
+         text-align: justify;
+         font-size:10px;
+         color:darkred;
+        }
+      }
+     
